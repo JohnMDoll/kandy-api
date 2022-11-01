@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John",
+      "email": "John@john.john",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Jon",
+      "email": "Jon@jon.jon",
+      "isStaff": false
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "x",
+      "payRate": "all the money",
+      "locationId": 1,
+      "userId": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 10000,
+      "userId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "11111 Best Road",
+      "squareFootage": 10000
+    },
+    {
+      "id": 2,
+      "address": "11112 Good Drive",
+      "squareFootage": 5000
+    },
+    {
+      "id": 3,
+      "address": "3 Okay Boulevard",
+      "squareFootage": 3500
+    },
+    {
+      "id": 4,
+      "address": "1574 Dont Come Here Parkway",
+      "squareFootage": 100
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Necco Wafers",
+      "productTypeId": 1,
+      "pricePerUnit": "3.50"
+    },
+    {
+      "id": 2,
+      "name": "Bazooka Joe",
+      "productTypeId": 2,
+      "pricePerUnit": "1.50"
+    },
+    {
+      "id": 3,
+      "name": "Nershey's Bar",
+      "productTypeId": 3,
+      "pricePerUnit": "2.50"
+    },
+    {
+      "id": 4,
+      "name": "Purple Drank",
+      "productTypeId": 4,
+      "pricePerUnit": "4.00"
+    },
+    {
+      "id": 5,
+      "name": "Raymonds Noodles",
+      "productTypeId": 1,
+      "pricePerUnit": "4.00"
+    },
+    {
+      "id": 6,
+      "name": "YooHoo",
+      "productTypeId": 4,
+      "pricePerUnit": "1.59"
+    },
+    {
+      "name": "Snicker's",
+      "productTypeId": 3,
+      "pricePerUnit": "1.21",
+      "id": 7
+    },
+    {
+      "name": "KatKat Bar",
+      "productTypeId": 3,
+      "pricePerUnit": "3.12",
+      "id": 8
+    },
+    {
+      "name": "Chonklate sauce",
+      "productTypeId": 3,
+      "pricePerUnit": "5.75",
+      "id": 9
+    },
+    {
+      "name": "Froot Jooze",
+      "productTypeId": 4,
+      "pricePerUnit": "1.28",
+      "id": 10
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "typeName": "Hardly Candy"
+    },
+    {
+      "id": 2,
+      "typeName": "Hard Gum"
+    },
+    {
+      "id": 3,
+      "typeName": "Chocolate"
+    },
+    {
+      "id": 4,
+      "typeName": "Good Dranks"
+    }
+  ],
+  "purchases": []
+}
