@@ -1,31 +1,51 @@
 {
   "users": [
     {
-      "id": 1,
-      "fullName": "John",
-      "email": "john@john.john",
-      "isStaff": true
-    },
-    {
       "id": 2,
       "fullName": "Jon",
       "email": "jon@jon.jon",
       "isStaff": false
     },
     {
-      "email": "vanessa@vanessa.com",
-      "fullName": "Vanessa Spear",
       "isStaff": true,
+      "fullName": "John Doll",
+      "email": "john@john.com",
+      "id": 1
+    },
+    {
+      "isStaff": true,
+      "fullName": "Vanessa Spears",
+      "email": "vanessa@vanessa.com",
       "id": 3
+    },
+    {
+      "isStaff": true,
+      "fullName": "New Guy",
+      "email": "newguy@kandy.com",
+      "id": 4
     }
   ],
   "employees": [
     {
-      "id": 1,
-      "startDate": "x",
-      "payRate": "all the money",
       "locationId": 1,
-      "userId": 1
+      "startDate": "2023-02-02",
+      "payRate": "145.32",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "locationId": 1,
+      "startDate": "2022-11-01",
+      "payRate": "47.11",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "locationId": 3,
+      "startDate": "2022-11-03",
+      "payRate": "15.32",
+      "userId": 4,
+      "id": 3
     }
   ],
   "customers": [
@@ -38,21 +58,25 @@
   "locations": [
     {
       "id": 1,
+      "name": "Best Store",
       "address": "11111 Best Road",
       "squareFootage": 10000
     },
     {
       "id": 2,
+      "name": "Good Store",
       "address": "11112 Good Drive",
       "squareFootage": 5000
     },
     {
       "id": 3,
+      "name": "Okay Store",
       "address": "3 Okay Boulevard",
       "squareFootage": 3500
     },
     {
       "id": 4,
+      "name": "Tiny Store",
       "address": "1574 Dont Come Here Parkway",
       "squareFootage": 100
     }
