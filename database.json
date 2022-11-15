@@ -52,7 +52,13 @@
     {
       "id": 1,
       "loyaltyNumber": 10000,
-      "userId": 2
+      "userId": 2,
+      "user": {
+        "id": 2,
+        "fullName": "Jon",
+        "email": "jon@jon.jon",
+        "isStaff": false
+      }
     }
   ],
   "locations": [
@@ -161,5 +167,41 @@
       "typeName": "Good Dranks"
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "productId": 8,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 9,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 7
+    }
+  ]
 }
